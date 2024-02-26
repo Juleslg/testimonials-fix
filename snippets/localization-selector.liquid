@@ -1,0 +1,53 @@
+<style>
+.language-selector-button {
+  margin-right: 10px;
+  /* You can add additional styling to the buttons as needed */
+  font-family: var(--heading-font-family);
+    font-weight: var(--heading-font-weight);
+    font-style: var(--heading-font-style);
+    letter-spacing: var(--heading-letter-spacing);
+    text-transform: var(--heading-text-transform);
+}
+
+  /* Gray out the unselected languages */
+  .language-selector-button:not(.is-selected) {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* Hover effect to restore opacity */
+  .language-selector-button:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+</style>
+{%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
+  {%- assign country_selector = true -%}
+{%- endif -%}
+
+{%- if section.settings.show_locale_selector and localization.available_languages.size > 1 -%}
+  {%- assign locale_selector = true -%}
+{%- endif -%}
+
+{%- if locale_selector or country_selector -%}
+  <div class="Footer__Localization">
+    {%- form 'localization', id: 'localization_form_footer', class: 'Footer__LocalizationForm' -%}
+      {%- if country_selector -%}
+        <!-- Your existing country selector code -->
+      {%- endif -%}
+
+      {%- if locale_selector -%}
+        <div class="Footer__LocalizationItem">
+          <input type="hidden" name="locale_code" value="{{ form.current_locale.iso_code }}">
+          <span class="u-visually-hidden"></span>
+
+          {%- for locale in form.available_locales -%}
+            <button class="language-selector-button {% if locale.iso_code == form.current_locale.iso_code %}is-selected{% endif %}" type="submit" name="locale_code" value="{{ locale.iso_code }}" {% if locale.iso_code == form.current_locale.iso_code %}aria-current="true"{% endif %}>
+              {{- locale.iso_code -}}
+            </button>
+          {%- endfor -%}	
+        </div>
+      {%- endif -%}
+    {%- endform -%}
+  </div>
+{%- endif -%}

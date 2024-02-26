@@ -1,0 +1,211 @@
+<!doctype html>
+
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
+  <head>
+
+<script>
+(function () {
+  var a = document.createElement('script');
+  (a.type = 'text/javascript'),
+    (a.async = !0),
+    (a.src = 'https://670724035.onomao.com/javascript/script.js'),
+    document.getElementsByTagName('script')[0].appendChild(a);
+})();
+</script>
+    
+	{% render 'pandectes-rules' %}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    {% render 'elevar-head' %}
+    
+    <meta name="google-site-verification" content="oEMlnmnci8Xs_QCDb_9ek-VJdmYea0LTazpeQxr3-gM">
+    <meta name="google-site-verification" content="B-n71eUGwaxMr9h0QYQ_J5wPUhc1S8B8KxqIPVZwNgc">
+    <meta name="facebook-domain-verification" content="8mdtso3p3067echcp7dvaahuqlm5yi">
+    <meta name="p:domain_verify" content="6013799f19ad1393eeee70d9a4b2fe79">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0">
+
+    <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
+
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
+      <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
+    {%- endif -%}
+
+    {%- comment -%}Few prefetch to increase performance on commonly used third-parties{%- endcomment -%}
+    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+
+    {%- unless settings.heading_font.system? -%}
+      <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- unless settings.text_font.system? -%}
+      <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- render 'social-meta-tags' -%}
+    {%- render 'microdata-schema' -%}
+    {%- render 'css-variables' -%}
+    {%- render 'js-variables' -%}
+
+    {%- if request.page_type == 'gift_card' -%}
+      <script src="{{ 'vendor/qrcode.js' | shopify_asset_url }}" defer></script>
+    {%- endif -%}
+
+    <script async src="{{ 'es-module-shims.min.js' | asset_url }}"></script>
+
+    <script type="importmap">
+      {%- comment -%}On Safari 16.3 and lower, a polyfill is used to load importmap{%- endcomment -%}
+      {
+        "imports": {
+          "vendor": "{{ 'vendor.min.js' | asset_url }}",
+          "theme": "{{ 'theme.js' | asset_url }}",
+          "photoswipe": "{{ 'photoswipe.min.js' | asset_url }}"
+        }
+      }
+    </script>
+
+    <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+
+    {{ content_for_header }}
+
+    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "hrd9yq15y7");
+</script>
+  <script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VbiARM'></script>  
+    
+  {% include 'trueroas_snippet' %} </head>
+
+  {% liquid
+    assign features_class = ''
+
+    if settings.show_button_transition
+      assign features_class = features_class | append: 'features--button-transition '
+    endif
+
+    if settings.show_image_zoom_on_hover
+      assign features_class = features_class | append: 'features--zoom-image '
+    endif
+
+    if settings.show_page_transition
+      assign features_class = features_class | append: 'features--page-transition '
+    endif
+  %}
+
+  <body class="{{ features_class }}">
+  {% render 'elevar-body-end' %}
+    
+    {%- render 'shadow-dom-templates' -%}
+
+    <loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
+    <a href="#main" allow-hash-change class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+    {%- if request.page_type != 'password' -%}
+      {%- sections 'header-group' -%}
+      {%- sections 'overlay-group' -%}
+    {%- endif -%}
+
+    <main id="main" class="anchor">
+      {{ content_for_layout }}
+    </main>
+
+    {%- if request.page_type != 'password' -%}
+      {%- sections 'footer-group' -%}
+    {%- endif -%}
+
+     {%- unless product.tags contains 'disablebis' -%}
+
+    <!-- Klaviyo Back in Stock | Ansprechpartner: thomas@thomas-grabner.com -->
+      <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+      <script>
+         var klaviyo = klaviyo || [];
+         klaviyo.init({
+           account: "VbiARM",
+           list: 'RQPQNk',
+           platform: "shopify"
+         });
+         klaviyo.enable("backinstock",{
+         trigger: {
+           product_page_text: "Benachrichtige mich",
+           product_page_class: "button w-full",
+           product_page_text_align: "center",
+           product_page_margin: "0px",
+           replace_anchor: true
+         },
+         modal: {
+          headline: "{product_name}",
+          body_content: "Bitte informiere mich, sobald das Produkt verfügbar ist.",
+          newsletter_subscribe_label: "zum onomao Newsletter anmelden",
+          email_field_label: "Email",
+          button_label: "E-Mail erhalten sobald verfügbar",
+          subscription_success_label: "Wir informieren dich, sobald das Produkt verfügbar ist",
+          footer_content: 'Wir informieren dich sobald das Produkt verfügbar ist. Du wirst nicht automatisch zum Newsletter angemeldet.',
+          subscribe_checked: false,
+          additional_styles: "@import url('https://use.typekit.net/kki4fmq.css');",
+          font_family: '"futura-pt",sans-serif;',
+          font_style: 'normal',
+          font_weight: '300',
+          drop_background_color: "#000",
+          background_color: "#fff",
+          text_color: "#222",
+          button_text_color: "#fff",
+          button_background_color: "#000000",
+          close_button_color: "#ccc",
+          error_background_color: "#fcd6d7",
+          error_text_color: "#C72E2F",
+          success_background_color: "#d3efcd",
+          success_text_color: "#1B9500"
+         	}
+        });
+      </script>
+
+      {% endunless %}
+    <!-- Gorgias Chat Widget Start -->
+    <script id="gorgias-chat-widget-install-v2" src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=27816"></script>
+    <script id="gorgias-chat-shopify-install">
+      !function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});
+    </script>
+    <!-- Gorgias Chat Widget End -->
+ <script>
+  window.addEventListener("klaviyoForms", function(e) { 
+    if (e.detail.type == 'open' || e.detail.type == 'embedOpen') {
+      gtag('event', 'form_open', {'form': 'Klaviyo form', 'form_id': e.detail.formId});
+    }
+    if (e.detail.type == 'submit') {
+      gtag('event', 'form_submit', {'form': 'Klaviyo form', 'form_id': e.detail.formId});
+    }
+    if (e.detail.type == 'stepSubmit') {
+      gtag('event', 'form_step_submit', {'form': 'Klaviyo form', 'step_name': e.detail.metaData.$step_name});
+    }
+    if (e.detail.type == 'redirectedToUrl') {
+      gtag('event', 'form_url_redirect', {'form': 'Klaviyo form', 'form_id': e.detail.formId});
+    }
+    if (e.detail.type == 'close') {
+      gtag('event', 'form_close', {'form': 'Klaviyo form', 'form_id': e.detail.formId});
+    }
+  });
+</script>   
+  </body>
+</html>

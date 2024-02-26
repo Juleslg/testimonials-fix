@@ -1,0 +1,53 @@
+<section > <div class="spacer{{ section.id }}"></div>
+</section>
+
+<style> 
+.spacer{{ section.id }} { padding-top: {{ section.settings.spacer_Desktop }}rem ; }
+
+  @media only screen and (max-width: 750px) {
+  .spacer{{ section.id }} { padding-top: {{ section.settings.spacer_Mobil }}rem ; }
+  }
+}
+</style>
+{% schema %}
+  {
+    "name": "Spacer",
+    "class": "shopify-section--bordered",
+    "settings": [
+{
+    "type": "range",
+    "id": "spacer_Desktop",
+    "min":  1,
+    "max":  50,
+    "step":  1,
+    "unit": "rem" ,
+    "label": "Padding Desktop",
+    "default":  12
+    },
+      {
+    "type": "range",
+    "id": "spacer_Mobil",
+    "min":  1,
+    "max":  50,
+    "step":  1,
+    "unit": "rem" ,
+    "label": "Padding Mobil",
+    "default":  6
+    }
+    ],
+      
+      "presets": [
+    {
+      "category": "Text",
+      "name": "Spacer",
+      "settings": {}
+    }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

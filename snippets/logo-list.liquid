@@ -1,0 +1,50 @@
+<p>Logo List</p>
+<div class="half_width">
+  <div class="row center_img">
+    <a class="" href="{{ pages['1-percent-for-the-planet'].url }}" >
+      <img class="klima_logo1" src="{{ '1white.svg' | asset_url }}" alt="">
+    </a>
+  </div>
+<div class="padding20">
+</div>
+  <div class="row center_img">
+    <a class=" " href="https://fpm.climatepartner.com/tracking/18072-2211-1001" target="_blank" rel="noopener noreferrer">
+      <img class="klima_logo2 center_img" src="{{ 'carbonneutralwhite.svg' | asset_url }}" alt="">
+      </a>
+  </div>
+
+</div>
+<style>
+  .half_width {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0px;
+
+   
+  }
+
+  .row {
+    flex: 50%;
+   
+  }
+
+  .klima_logo1 {
+    height: 55px;
+    
+  }
+
+   .klima_logo2 {
+    height: 55px;
+    
+  }
+
+  .center_img {
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+  }
+  .padding20{ padding: 0 10px 0;}
+</style>

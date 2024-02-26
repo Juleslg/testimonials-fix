@@ -1,0 +1,110 @@
+{% if product.metafields.custom.farbvarianten-sets.value %}
+   
+<div id="color-selector" >
+    <div id="color-name-container" class="gap-2">
+        <p class="h6">{{ 'general.label.colorTanslated' | t }}: <a id="color-name-placeholder">{{ product.metafields.product.color }}</a>
+        </p>
+    </div>
+    <div class="set-color-div gap-2.5">
+        {% for alt_product in product.metafields.custom.farbvarianten-sets.value %}
+        {% assign colorClass = 'grayed_out' %}
+        {% if alt_product.available %}
+            {% assign colorClass = 'avalible' %}
+        {% endif %}
+        <a href="{{ alt_product.url }}" title="{{ alt_product.title }}"
+            class="color-swatch-a {{ colorClass }}{% if alt_product.url == product.url %} selected{% endif %} boarder-radius"
+            data-color="{{ alt_product.color }}" data-color-name="{{ alt_product.metafields.product.color }}">
+            <img class="varriant_padding_right color-swatch-img boarder-radius"
+                src="{{ alt_product.metafields.custom.colorimg | img_url: '28x28', crop: 'center', format: 'pjpg' }}"
+                alt="{{ alt_product.title }}" loading="lazy">
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+<style>
+    .color-swatch-img {
+        width: 28px;
+        height: 28px;
+    }
+    .boarder-radius{
+        border-radius: 20px;
+    }
+    #color-selector {
+        text-align: left;
+        display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    }
+
+    #color-name-container {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .set-color-div {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .avalible {
+        opacity: 1;
+    }
+
+    .grayed_out {
+        opacity: 0.5;
+    }
+
+    .color-swatch-a {
+        padding: 2px;
+        border: 1px solid transparent;
+        position: relative;
+    }
+
+    .selected {
+        border: 1px solid black;
+    }
+
+    .color-swatch-a:hover {
+        border: 1px solid black;
+    }
+
+    /* Dropdown Button */
+
+    .disabled {
+        pointer-events: none;
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const colorSwatches = document.querySelectorAll('.color-swatch-a');
+        const colorNamePlaceholder = document.querySelector('#color-name-placeholder');
+        
+        colorSwatches.forEach(swatch => {
+            swatch.addEventListener('mouseenter', function() {
+                const colorName = this.getAttribute('data-color-name');
+                colorNamePlaceholder.textContent = `${colorName}`;
+            });
+            
+            swatch.addEventListener('mouseleave', function() {
+                const defaultColorName = '{{ product.metafields.product.color }}';
+                colorNamePlaceholder.textContent = `${defaultColorName}`;
+            });
+        });
+        
+        colorSwatches.forEach(swatch => {
+            swatch.addEventListener('click', function() {
+                colorSwatches.forEach(s => s.classList.remove('selected'));
+                this.classList.add('selected');
+                const colorName = this.getAttribute('data-color-name');
+                colorNamePlaceholder.textContent = `${colorName}`;
+            });
+        });
+    });
+</script>
+
+
+

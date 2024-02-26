@@ -1,0 +1,6 @@
+{% for tag in product.tags %}
+    {% if tag contains '__custom_badge:' %}
+    <!-- Remove '__custom_badge:' and display the part after the colon -->
+    <p class="h6 custom_badge">{{ tag | remove: '__custom_badge:' }}</p>
+    {% endif %}
+    {% endfor %}
