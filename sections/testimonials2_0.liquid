@@ -110,6 +110,10 @@
     .testimonial-list {
       gap: {{ section.settings.testimonial_list_gap }}rem;
     }
+
+    #shopify-section-{{ section.id }} .prose {
+    max-width: {{ section.settings.prose_width }}rem;
+  }
 </style>
 
 
@@ -132,6 +136,17 @@
       "step": 1,
       "unit": "px",
       "default": 30
+    },
+
+    {
+      "type": "range",
+      "id": "prose_width",
+      "label": "Prose Width",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "rem",
+      "default": 20
     },
     {
       "type": "range",
