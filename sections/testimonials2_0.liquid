@@ -114,6 +114,17 @@
     #shopify-section-{{ section.id }} .testimonial-list {
     max-width: auto;
     }
+
+    #shopify-section-{{ section.id }} .testimonial-list {
+  max-width: 90%; /* Adjust this value as needed */
+  margin: 0 auto; /* This will center the container */
+}
+
+@media screen and (min-width: 768px) {
+  #shopify-section-{{ section.id }} .testimonial-list {
+    max-width: 1200px; /* Adjust this value as needed for larger screens */
+  }
+}
   
 </style>
 
