@@ -112,7 +112,7 @@
     }
 
     #shopify-section-{{ section.id }} .prose {
-    max-width: {{ section.settings.prose_width }}rem;
+    min-width: {{ section.settings.prose_width }}rem;
   }
 </style>
 
@@ -141,7 +141,7 @@
     {
       "type": "range",
       "id": "prose_width",
-      "label": "Prose Width",
+      "label": "Text Width",
       "min": 1,
       "max": 100,
       "step": 1,
