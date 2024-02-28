@@ -607,10 +607,8 @@ height-observer {
     var(--content-over-media-gap)
   );
   grid-template:
-    [full-start] 0 [content-start] minmax(
-      0,
-      1fr
-    ) [content-end] 0 [full-end] / [full-start] minmax(0, 1fr)
+    [full-start] 0 [content-start] minmax(0, 1fr)
+    [content-end] 0 [full-end] / [full-start] minmax(0, 1fr)
     [content-start] minmax(
       0,
       min(
@@ -6985,7 +6983,7 @@ tfoot td {
 }
 
 .testimonial-item {
-  max-width: 45rem;
+  max-width: 48rem;
   font-size: var(--testimonials-font-size);
   grid-area: 1 / -1;
   align-content: start;
