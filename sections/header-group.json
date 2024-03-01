@@ -1,1 +1,154 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"edeae3dc-1c49-4505-8278-b072215ce465":{"type":"message","disabled":true,"settings":{"text":"Wir nutzen das Jahresende und misten aus! <a href=\"\/collections\/christmas-outlet\" title=\"Christmas Outlet\">Bis zu 40% auf bestimmte Produkte.<\/a>"}},"message-1":{"type":"message","settings":{"text":"BIS ZUM 10. MÄRZ: GRATIS VERSAND MIT DEM CODE <strong>FREELING<\/strong> INNERHALB DEUTSCHLANDS & ÖSTERREICHS."}}},"block_order":["edeae3dc-1c49-4505-8278-b072215ce465","message-1"],"custom_css":[".announcement-bar__carousel {max-width: 50rem;}"],"settings":{"enable_sticky":false,"autoplay":true,"cycle_speed":5,"desktop_font_size":11,"mobile_font_size":9,"background":"#273151","text_color":"#ffffff"}},"header":{"type":"header","blocks":{"b706b354-8f0f-4f84-b99f-9781ed965235":{"type":"mega_menu","settings":{"menu_item":"Shop","images_position":"right","image_1":"shopify:\/\/shop_images\/NEU-IM-SORTIMENT.jpg","image_1_heading":"Neu im Sortiment","image_1_text":"","image_1_link":"shopify:\/\/collections\/neu-im-sortiment","image_2":"shopify:\/\/shop_images\/ONOMAO-OUTLET-1_e13bdeaa-402b-4c60-9409-76d2f5a603ae.jpg","image_2_heading":"onomao Outlet","image_2_text":"","image_2_link":"shopify:\/\/collections\/christmas-outlet","image_3_heading":"","image_3_text":"","image_3_link":"shopify:\/\/collections\/aberta","image_4_heading":"","image_4_text":"","image_4_link":"","image_5_heading":"","image_5_text":"","image_5_link":""}},"10db80b4-cda3-4451-af7e-dcbab0847061":{"type":"mega_menu","settings":{"menu_item":"Magazin","images_position":"right","image_1":"shopify:\/\/shop_images\/Vorschaubild_JIMU_1.jpg","image_1_heading":"EIN GESPRÄCH MIT JIMU KOBAYASHI","image_1_text":"","image_1_link":"shopify:\/\/blogs\/magazin\/ein-gesprach-mit-jimu-kobayashi-uber-die-entstehung-seiner-kunstler-edition","image_2":"shopify:\/\/shop_images\/Vorschaubild_Achtsamkeit.jpg","image_2_heading":"5 Achtsamkeitstipps für deinen Alltag","image_2_text":"","image_2_link":"shopify:\/\/blogs\/magazin\/5-achtsamkeitstipps-fur-deinen-alltag","image_3":"shopify:\/\/shop_images\/Vorschaubild_Team_Gift_Guide.jpg","image_3_heading":"The Gift Guide - Ideen aus dem onomao-Team","image_3_text":"","image_3_link":"shopify:\/\/blogs\/magazin\/the-gift-guide-ideen-aus-dem-onomao-team","image_4":"shopify:\/\/shop_images\/Vorschaubild_Makuyuni_01_ecb2ef9f-91f8-4332-af2c-afc5d9b78df5.jpg","image_4_heading":"Makuyuni e.V. Cologne - Recht auf Bildung für alle","image_4_text":"","image_4_link":"shopify:\/\/blogs\/magazin\/makuyuni-e-v-cologne-recht-auf-bildung-fur-alle","image_5":"shopify:\/\/shop_images\/Vorschaubild_Rezept_gross.jpg","image_5_heading":"Ein Rezept von Taste Appeal","image_5_text":"","image_5_link":"shopify:\/\/blogs\/magazin\/ein-rezept-von-taste-appeal"}},"5dcb6592-e168-4cdf-8aa6-d656f4a917bc":{"type":"mega_menu","settings":{"menu_item":"Nachhaltigkeit","images_position":"right","image_1":"shopify:\/\/shop_images\/2020-03-05_OnoMao_Maerz205751_e2136a83-84f3-4728-8984-6dfe04935899.jpg","image_1_heading":"Über Uns","image_1_text":"","image_1_link":"shopify:\/\/pages\/ueber-uns","image_2":"shopify:\/\/shop_images\/2022-07-16_Onomao-8515_1_996133f7-259e-4cbd-82e8-ff99b0bbcccc.jpg","image_2_heading":"Unsere Werte","image_2_text":"","image_2_link":"shopify:\/\/pages\/unsere-werte-7-3","image_3":"shopify:\/\/shop_images\/2020-07-03_Onomao10826_afbc9f90-04b6-4299-818f-bd7e594cb0cf_1.jpg","image_3_heading":"Verantwortung","image_3_text":"","image_3_link":"shopify:\/\/pages\/verantwortung","image_4":"shopify:\/\/shop_images\/OnoMao-4129_740x460_Kopie_1_0c010ae1-669e-4ab4-b984-53a86c75de07.jpg","image_4_heading":"Faire Produktion","image_4_text":"","image_4_link":"shopify:\/\/pages\/faire-produktion","image_5_heading":"","image_5_text":"","image_5_link":""}}},"block_order":["b706b354-8f0f-4f84-b99f-9781ed965235","10db80b4-cda3-4451-af7e-dcbab0847061","5dcb6592-e168-4cdf-8aa6-d656f4a917bc"],"settings":{"enable_sticky":true,"show_separation_border":false,"reduce_padding":true,"cart_no":true,"logo":"shopify:\/\/shop_images\/Logo-schwarz_0db4441f-53eb-480b-8975-7a88a3cba69e.png","logo_max_width":140,"logo_mobile_max_width":100,"menu":"new-main-menu","sidebar_menu":"sidebar-menu","menu_open_trigger":"hover","enable_search":true,"sidebar_text_font":"heading","sidebar_show_dividers":false,"layout":"logo_center_navigation_inline","show_icons":true,"show_country_selector":false,"show_country_name":false,"show_country_flag":false,"show_locale_selector":true,"transparent_header_text_color":"#ffffff","transparent_logo":"shopify:\/\/shop_images\/Logo-weiss_f4e681e1-e607-420b-b9fe-82bc2a864e72.png"}}},"order":["announcement-bar","header"]}
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "edeae3dc-1c49-4505-8278-b072215ce465": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "Wir nutzen das Jahresende und misten aus! <a href=\"\/collections\/christmas-outlet\" title=\"Christmas Outlet\">Bis zu 40% auf bestimmte Produkte.<\/a>"
+          }
+        },
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "BIS ZUM 10. MÄRZ: GRATIS VERSAND MIT DEM CODE <strong>FREELING<\/strong> INNERHALB DEUTSCHLANDS & ÖSTERREICHS."
+          }
+        }
+      },
+      "block_order": [
+        "edeae3dc-1c49-4505-8278-b072215ce465",
+        "message-1"
+      ],
+      "custom_css": [
+        ".announcement-bar__carousel {max-width: 50rem;}"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "desktop_font_size": 11,
+        "mobile_font_size": 9,
+        "background": "#aa9dcc",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "b706b354-8f0f-4f84-b99f-9781ed965235": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Shop",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/NEU-IM-SORTIMENT.jpg",
+            "image_1_heading": "Neu im Sortiment",
+            "image_1_text": "",
+            "image_1_link": "shopify:\/\/collections\/neu-im-sortiment",
+            "image_2": "shopify:\/\/shop_images\/ONOMAO-OUTLET-1_e13bdeaa-402b-4c60-9409-76d2f5a603ae.jpg",
+            "image_2_heading": "onomao Outlet",
+            "image_2_text": "",
+            "image_2_link": "shopify:\/\/collections\/christmas-outlet",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "shopify:\/\/collections\/aberta",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": ""
+          }
+        },
+        "10db80b4-cda3-4451-af7e-dcbab0847061": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Magazin",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/Vorschaubild_JIMU_1.jpg",
+            "image_1_heading": "EIN GESPRÄCH MIT JIMU KOBAYASHI",
+            "image_1_text": "",
+            "image_1_link": "shopify:\/\/blogs\/magazin\/ein-gesprach-mit-jimu-kobayashi-uber-die-entstehung-seiner-kunstler-edition",
+            "image_2": "shopify:\/\/shop_images\/Vorschaubild_Achtsamkeit.jpg",
+            "image_2_heading": "5 Achtsamkeitstipps für deinen Alltag",
+            "image_2_text": "",
+            "image_2_link": "shopify:\/\/blogs\/magazin\/5-achtsamkeitstipps-fur-deinen-alltag",
+            "image_3": "shopify:\/\/shop_images\/Vorschaubild_Team_Gift_Guide.jpg",
+            "image_3_heading": "The Gift Guide - Ideen aus dem onomao-Team",
+            "image_3_text": "",
+            "image_3_link": "shopify:\/\/blogs\/magazin\/the-gift-guide-ideen-aus-dem-onomao-team",
+            "image_4": "shopify:\/\/shop_images\/Vorschaubild_Makuyuni_01_ecb2ef9f-91f8-4332-af2c-afc5d9b78df5.jpg",
+            "image_4_heading": "Makuyuni e.V. Cologne - Recht auf Bildung für alle",
+            "image_4_text": "",
+            "image_4_link": "shopify:\/\/blogs\/magazin\/makuyuni-e-v-cologne-recht-auf-bildung-fur-alle",
+            "image_5": "shopify:\/\/shop_images\/Vorschaubild_Rezept_gross.jpg",
+            "image_5_heading": "Ein Rezept von Taste Appeal",
+            "image_5_text": "",
+            "image_5_link": "shopify:\/\/blogs\/magazin\/ein-rezept-von-taste-appeal"
+          }
+        },
+        "5dcb6592-e168-4cdf-8aa6-d656f4a917bc": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Nachhaltigkeit",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/2020-03-05_OnoMao_Maerz205751_e2136a83-84f3-4728-8984-6dfe04935899.jpg",
+            "image_1_heading": "Über Uns",
+            "image_1_text": "",
+            "image_1_link": "shopify:\/\/pages\/ueber-uns",
+            "image_2": "shopify:\/\/shop_images\/2022-07-16_Onomao-8515_1_996133f7-259e-4cbd-82e8-ff99b0bbcccc.jpg",
+            "image_2_heading": "Unsere Werte",
+            "image_2_text": "",
+            "image_2_link": "shopify:\/\/pages\/unsere-werte-7-3",
+            "image_3": "shopify:\/\/shop_images\/2020-07-03_Onomao10826_afbc9f90-04b6-4299-818f-bd7e594cb0cf_1.jpg",
+            "image_3_heading": "Verantwortung",
+            "image_3_text": "",
+            "image_3_link": "shopify:\/\/pages\/verantwortung",
+            "image_4": "shopify:\/\/shop_images\/OnoMao-4129_740x460_Kopie_1_0c010ae1-669e-4ab4-b984-53a86c75de07.jpg",
+            "image_4_heading": "Faire Produktion",
+            "image_4_text": "",
+            "image_4_link": "shopify:\/\/pages\/faire-produktion",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b706b354-8f0f-4f84-b99f-9781ed965235",
+        "10db80b4-cda3-4451-af7e-dcbab0847061",
+        "5dcb6592-e168-4cdf-8aa6-d656f4a917bc"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "show_separation_border": false,
+        "reduce_padding": true,
+        "cart_no": true,
+        "logo": "shopify:\/\/shop_images\/Logo-schwarz_0db4441f-53eb-480b-8975-7a88a3cba69e.png",
+        "logo_max_width": 140,
+        "logo_mobile_max_width": 100,
+        "menu": "new-main-menu",
+        "sidebar_menu": "sidebar-menu",
+        "menu_open_trigger": "hover",
+        "enable_search": true,
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": false,
+        "layout": "logo_center_navigation_inline",
+        "show_icons": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "show_locale_selector": true,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/Logo-weiss_f4e681e1-e607-420b-b9fe-82bc2a864e72.png"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
