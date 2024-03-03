@@ -1,1 +1,201 @@
-{"current":{"icon_stroke_width":1.2,"section_vertical_spacing":"md","text_color":"#1c1b1b","background":"#ffffff","secondary_background":"#ffffff","success_color":"#307a07","error_color":"#cb2b2b","header_background":"#ffffff","header_text_color":"#1c1b1b","footer_background":"#1c1b1b","footer_text_color":"#ffffff","primary_button_background":"rgba(0,0,0,0)","primary_button_text_color":"#ffffff","modal_background":"#ffffff","modal_text_color":"#1c1b1b","product_rating_color":"#1c1b1b","product_on_sale_accent":"#1c1b1b","product_sold_out_badge_background":"#ffffff","product_custom_badge_background":"#1c1b1b","heading_font":"futura_n4","heading_font_size_factor":1.1,"heading_letter_spacing":17,"text_font":"palatino_n4","text_font_size_desktop":14,"text_font_letter_spacing":2,"button_text_font":"heading","button_text_transform":"normal","button_letter_spacing":18,"show_button_transition":false,"show_image_zoom_on_hover":false,"stagger_products_apparition":false,"stagger_blog_posts_apparition":false,"round_color_swatches":true,"color_swatch_config":"Traditionell\n\nBeige:beige.png\nBeige Dipped:beige_dipped.png\nGraublau Vollfarben:graublau.png\nGraublau:graublau.png\nGreyblue:graublau.png\nGris-Bleu:graublau.png\nGraublau Dipped:graublau_dipped.png\nGreyblue Dipped:graublau_dipped.png\nGris-Bleu Dipped:graublau_dipped.png\nGraublau Innen:graublau_dipped.png\nGreyblue Inside:graublau_dipped.png\nHellblau:hellblau.png\nLightblue:hellblau.png\nBleu Clair:hellblau.png\nHellgrau:hellgrau.png\nLight Grey:hellgrau.png\nGris Clair:hellgrau:png\nJade:jade.png\nRosé Vollfarben:rose.png\nSteingrau Vollfarben:steingrau.png\nKlar:klar.png\nClear:klar.png\nClair:klar.png\nLachs:lachs.png\nSalmon:lachs.png\nSaumon:lachs.png\nMintgrün:mintgruen.png\nNachtschwarz:nachtschwarz.png\nNightblack:nachtschwarz.png\nNoir Nuit:nachtschwarz.png\nNachtschwarz Dipped:nachtschwarz_dipped.png\nNightblack Dipped:nachtschwarz_dipped.png\nNoir Nuit Dipped:nachtschwarz_dipped.png\nTeal Vollfarben:teal.png\nNaturweiß:naturweiss.png\nNatural White:naturweiss.png\nBlanc Naturel:naturweiss.png\nNaturweiß Dipped:naturweiss_dipped.png\nNatural White Dipped:naturweiss_dipped.png\nBlanc Naturel Dipped:naturweiss_dipped.png\nRosé:rose.png\nRosé Dipped:rose_dipped.png\nSalbei:salbei.png\nSage:salbei.png\nSauge:salbei.png\nSand:sand.png\nSable:sand.png\nSand Dipped:sand_dipped.png\nSable Dipped:sand_dipped.png\nSchneeweiß:schneeweiss.png\nSnow White:schneeweiss.png\nBlanc neige:schneeweiss.png\nSenfgelb:senfgelb.png\nMustard Yellow:senfgelb.png\nMoutarde:senfgelb.png\nSteingrau:steingrau.png\nStonegrey:steingrau.png\nGris-Pierre:steingrau.png\nSteingrau Dipped:steingrau_dipped.png\nStonegrey Dipped:steingrau_dipped.png\nGris-Pierre Dipped:steingrau_dipped.png\nSteingrau Innen:steingrau_dipped.png\nTeal:teal.png\nTeal Dipped:teal_dipped.png\nTeal Innen:teal_innen.png\nTeal Inside:teal_innen.png\nTeal Intérieur:teal_innen.png\nTransparent:transparent.png\nTürkis:tuerkis.png\nTurquoise:tuerkis.png\nTürkis Dipped:tuerkis_dipped.png\nTurquoise Dipped:tuerkis_dipped.png\nRosé Vollfarben:rose.png\nTürkis Vollfarben:tuerkis.png\nTeal Vollfarben:teal.png\n\nKlassik\n\nAltrosa:altrosa.png\nOldrose:altrosa.png\nRose Sombre:altrosa.png\nAltrosa Innen:altrosa_innen.png\nOldrose Inside:altrosa_innen.png\nIntérieur Rose Sombre:altrosa_innen.png\nBlau Innen:blau_innen.png\nBlue Inside:blau_innen.png\nBleu Intérieur:blau_innen.png\nBlau-Weiß-Gestreift:blau_weiss_gestreift.png\nBlue-White-Striped:blau_weiss_gestreift.png\nRayé Bleu & Blanc:blau_weiss_gestreift.png\nFlieder Innen:flieder_innen.png\nLilac Inside:flieder_innen.png\nLilas Intérieur:flieder_innen.png\nApricot Innen:apricot_innen.png\nApricot Inside:apricot_innen.png\nAbricot Intérieur:apricot_innen.png\nGrün Innen:gruen_innen.png\nGreen Inside:gruen_innen.png\nVert Intérieur:gruen_innen.png\nKaramell:karamell.png\nCaramel:karamell.png\nKaramell Innen:karamell_innen.png\nCaramel Inside:karamell_innen.png\nIntérieur Caramel:karamell_innen.png\nKreideblau:kreideblau.png\nChalk Blue:kreideblau.png\nBleu Craie:kreideblau.png\nLanius Beige:lanius_beige.png\nPetrol:petrol.png\nPétrole:petrol.png\nPetrol Innen:petrol_innen.png\nPetrol Inside:petrol_innen.png\nIntérieur Pétrole:petrol_innen.png\nSand:sand.png\nSable:sand.png\nTaubenblau:taubenblau.png\nDove Blue:taubenblau.png\nBleu Pigeon:taubenblau.png\nTaubenblau Innen:taubenblau_innen.png\nDove Blue Inside:taubenblau_innen.png\nIntérieur bleu pigeon:taubenblau_innen.png\nWeiß:weiss.png\nWhite:weiss.png\nBlanc:weiss.png\nWeiß Innen:weiss_innen.png\nWhite Inside:weiss_innen.png\nIntérieur Blanc:weiss_innen.png\nEye Motiv:eye.jpg\nLine Motiv:line.jpg\n\nBlumentöpfe\n\nKalkstein:kalkstein.png\nLimestone:kalkstein.png\nBlanc Minéral:kalkstein.png\nVanille:vanille.png\nVanilla:vanille.png\nWolkenblau:wolkenblau.png\nCloudy Blue:wolkenblau.png\nBleu Nuage:wolkenblau.png\n\nAberta \/ Antonio Rosa\n\nCremeweiß:cremeweiss.png\nCream White:cremeweiss.png\nBlanc Crème:cremeweiss.png\nSchwarz:schwarz.png\nBlack:schwarz.png\nNoir:schwarz.png\nHellgrau:hellgrau.png\nLight Grey:hellgrau.png\nGris Clair:hellgrau.png\nGrün Vollfarben:gruen.jpg\nBlau Vollfarben:blau.jpg\nOcker Vollfarben:Ocker.jpg\nGrün Handbemalt:gruen-handbemalt.jpg\nBlau Handbemalt:blau-handbemalt.jpg\nOcker Handbemalt:ocker-handbemalt.jpg\nAprikose gestreift:aprikose-gestreift.png\nAprikose kariert:aprikose-kariert.png\nBlau gestreift:blau-gestreift.png\nBlau-gestreift:blau-gestreift2.png\nGrün gestreift:gruen-gestreift.png\nGrün kariert:gruen-kariert.png\nRot gestreift:rot-gestreift.png\nRot kariert:rot-kariert.png\n\nPura\n\nBlau:blau.png\n\nKerzenständer\n\nCreme:creme.png\nCream:creme.png\nCrème:creme.png\nGrau:grau.png\nGrey:grau.png\nGris:grau.png\nHellbeige:hellbeige.png\nLight Beige:hellbeige.png\nBeige Clair:hellbeige.png\nHellmint:hellmint.png\nLight Mint:hellmint.png\nMenthe Clair:hellmint.png\nKobaltblau:kobaltblau.png\nCobalt Blue:kobaltblau.png\nBleu Cobalt:kobaltblau.png\nKarminrot:karminrot.png\nCarmine Red:karminrot.png\nRouge Carmin:karminrot.png\nTerrakotta:terrakotta.png\nTerracotta:terrakotta.png\nWolkenweiß:wolkenweiss.png\nCloud White:wolkenweiss.png\nBlanc Nuage:wolkenweiss.png\n\nDecken & Teppiche\n\nAnthrazit:anthrazit.png\nAnthracite:anthrazit.png\nBlau-Marine:blau_marine.png\nBlue-Navy:blau_marine.png\nBleu-Marine:blau_marine.png\nBordeaux Meliert:bordeaux_meliert.png\nBordeaux mottled:bordeaux_meliert.png\nBordeaux moucheté:bordeaux_meliert.png\nCreme-Anthrazit:creme_anthrazit.png\nCream-Anthracite:creme_anthrazit.png\nCrème-Anthracite:creme_anthrazit.png\nCreme-Natur:creme_natur.png\nCream-Nature:creme_natur.png\nCrème-Nature:creme_natur.png\nDouble Face Marone Beige:double_face_marone_beige.png\nDouble Face - Chestnut Beige:double_face_marone_beige.png\nDOUBLE FACE - BEIGE:double_face_marone_beige.png\nFischgrät Marone Beige:fischgraet_marone_beige.png\nHerringbone - Chestnut Beige:fischgraet_marone_beige.png\nFLÉCHÉE -  BEIGE:fischgraet_marone_beige.png\nKaro Wollweiß:karo_wollweiss.png\nGrasgrün Meliert:grasgruen_meliert.png\nGras-Green mottled:grasgruen_meliert.png\nGrass green moucheté:grasgruen_meliert.png\nKobaltblau Meliert:kobaltblau_meliert.png\nCobalt Blue mottled:kobaltblau_meliert.png\nBleu Cobalt moucheté:kobaltblau_meliert.png\nMarineblau Meliert:marineblau_meliert.png\nNavy Blue mottled:marineblau_meliert.png\nBleu Marine moucheté:marineblau_meliert.png\nNatur:natur.png\nNature:natur.png\nRaute Wollweiß:raute_wollweiss.png\nSquare - Wool White:raute_wollweiss.png\nLOSANGE - BLANC LAINE:raute_wollweiss.png\nTürkis-Petrol:tuerkis_petrol.png\nTurquoise-Petrol:tuerkis_petrol.png\nTurquoise-Pétrole:tuerkis_petrol.png\nNaturweiß-Rosé:naturweiss-rose.png\nNaturweiß-Grün:naturweiss-gruen.png\nNaturweiß-Blau:naturweiss-blau.png\nNaturweiß-Gelb:naturweiss-gelb.png","product_image_aspect_ratio":"natural","show_vendor":false,"product_title_max_lines":0,"product_card_text_font":"body","product_color_display":"swatch","show_product_rating":false,"show_quick_buy":false,"show_sold_out_badge":false,"show_discount":false,"discount_mode":"percentage","cart_type":"page","cart_icon":"shopping_bag_sharp","cart_empty_cart_link":"\/","cart_show_free_shipping_bar":false,"cart_free_shipping_threshold":"190","social_facebook":"https:\/\/www.facebook.com\/onomao.interior","social_pinterest":"https:\/\/www.pinterest.de\/ono_mao\/","social_instagram":"https:\/\/www.instagram.com\/ono__mao\/","favicon":"shopify:\/\/shop_images\/favicon2_Kopie.png","heading_color":"#1c1c1c","sections":{"main-gift-card":{"type":"main-gift-card","settings":{"image_logo":"shopify:\/\/shop_images\/Logo-schwarz_0db4441f-53eb-480b-8975-7a88a3cba69e.png","image":"shopify:\/\/shop_images\/d2076d1b-7553-4541-a000-647d572f4e93.jpg","show_qr_code":false,"text_fuer":"Für","text_von":"Von","text_line_4":"<p>﻿﻿﻿1. Besuche unseren Onlineshop onomao.com<\/p><p>2. ﻿﻿﻿Lege deine Lieblingsprodukte in den Warenkorb.<\/p><p>3. ﻿﻿﻿Im Checkout kannst du deinen Gutscheincode einlösen.<\/p><p>4. ﻿﻿﻿Freu dich auf deine Bestellung!:)<\/p>"}}},"content_for_index":[],"blocks":{"855628211100114053":{"type":"shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507","disabled":false,"settings":{}},"7079518687644006178":{"type":"shopify:\/\/apps\/checkout-blocks\/blocks\/app-embed\/b0024ca5-9de8-4bf0-a92f-cd0783877ae2","disabled":false,"settings":{"utm_id":true,"utm_source":true,"utm_medium":true,"utm_campaign":true,"utm_term":true,"ref":true}},"10830403595879607806":{"type":"shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-core\/92a082e5-b297-4e88-b428-ac96cbc505f9","disabled":false,"settings":{"url_key":"onomao.com","lang":"auto"}},"15351435345818755577":{"type":"shopify:\/\/apps\/pandectes-gdpr-compliance\/blocks\/banner\/58c0baa2-6cc1-480c-9ea6-38d6d559556a","disabled":false,"settings":{}},"15316669992541710076":{"type":"shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-snippet\/92a082e5-b297-4e88-b428-ac96cbc505f9","disabled":false,"settings":{"star":"#000000","text_color":"#333333","snippet_mode":"default","text":"Reviews","line_break":false,"listen_for_changes":false,"rating_without_brackets":false,"format_review_count":true,"show_popup":false,"anchor_to_reviews_widget":true,"show_empty_stars":false}}}},"presets":{"Allure":{"section_vertical_spacing":"md","heading_color":"#1c1c1c","text_color":"#1c1c1c","background":"#efefef","secondary_background":"#ffffff","success_color":"#307a07","error_color":"#cb2b2b","header_background":"#ffffff","header_text_color":"#1c1c1c","footer_background":"#ffffff","footer_text_color":"#1c1c1c","modal_background":"#ffffff","modal_text_color":"#1c1c1c","primary_button_background":"#1c1c1c","primary_button_text_color":"#ffffff","product_rating_color":"#1c1c1c","heading_font":"univers_next_n4","heading_letter_spacing":18,"text_font":"univers_next_n4","text_font_size_desktop":14,"button_letter_spacing":18},"Couture":{"section_vertical_spacing":"md","heading_color":"#5c5c5c","text_color":"#5c5c5c","background":"#ffffff","secondary_background":"#ffffff","success_color":"#307a07","error_color":"#cb2b2b","header_background":"#ffffff","header_text_color":"#303030","footer_background":"#ffffff","footer_text_color":"#303030","modal_background":"#ffffff","modal_text_color":"#303030","primary_button_background":"#5c5c5c","primary_button_text_color":"#ffffff","product_rating_color":"#1c1c1c","heading_font":"futura_n4","heading_letter_spacing":18,"text_font":"century_gothic_n4","text_font_size_desktop":14,"button_letter_spacing":18},"Vogue":{"section_vertical_spacing":"xs","heading_color":"#303030","text_color":"#303030","background":"#ffffff","secondary_background":"#ffffff","success_color":"#307a07","error_color":"#cb2b2b","header_background":"#ffffff","header_text_color":"#303030","footer_background":"#ffffff","footer_text_color":"#303030","modal_background":"#ffffff","modal_text_color":"#303030","primary_button_background":"#f5db8b","primary_button_text_color":"#303030","product_rating_color":"#1c1c1c","heading_font":"din_neuzeit_grotesk_n3","heading_letter_spacing":18,"text_font":"futura_n4","text_font_size_desktop":14,"button_letter_spacing":18}},"platform_customizations":{"custom_css":[".cc-banner-logo {margin: auto;}"]}}
+{
+  "current": {
+    "icon_stroke_width": 1.2,
+    "section_vertical_spacing": "md",
+    "text_color": "#1c1b1b",
+    "background": "#ffffff",
+    "secondary_background": "#ffffff",
+    "success_color": "#307a07",
+    "error_color": "#cb2b2b",
+    "header_background": "#ffffff",
+    "header_text_color": "#1c1b1b",
+    "footer_background": "#1c1b1b",
+    "footer_text_color": "#ffffff",
+    "primary_button_background": "rgba(0,0,0,0)",
+    "primary_button_text_color": "#ffffff",
+    "modal_background": "#ffffff",
+    "modal_text_color": "#1c1b1b",
+    "product_rating_color": "#1c1b1b",
+    "product_on_sale_accent": "#1c1b1b",
+    "product_sold_out_badge_background": "#ffffff",
+    "product_custom_badge_background": "#1c1b1b",
+    "heading_font": "futura_n4",
+    "heading_font_size_factor": 1.1,
+    "heading_letter_spacing": 17,
+    "text_font": "palatino_n4",
+    "text_font_size_desktop": 14,
+    "text_font_letter_spacing": 2,
+    "button_text_font": "heading",
+    "button_text_transform": "normal",
+    "button_letter_spacing": 18,
+    "show_button_transition": false,
+    "show_image_zoom_on_hover": false,
+    "stagger_products_apparition": false,
+    "stagger_blog_posts_apparition": false,
+    "round_color_swatches": true,
+    "color_swatch_config": "Traditionell\n\nBeige:beige.png\nBeige Dipped:beige_dipped.png\nGraublau Vollfarben:graublau.png\nGraublau:graublau.png\nGreyblue:graublau.png\nGris-Bleu:graublau.png\nGraublau Dipped:graublau_dipped.png\nGreyblue Dipped:graublau_dipped.png\nGris-Bleu Dipped:graublau_dipped.png\nGraublau Innen:graublau_dipped.png\nGreyblue Inside:graublau_dipped.png\nHellblau:hellblau.png\nLightblue:hellblau.png\nBleu Clair:hellblau.png\nHellgrau:hellgrau.png\nLight Grey:hellgrau.png\nGris Clair:hellgrau:png\nJade:jade.png\nRosé Vollfarben:rose.png\nSteingrau Vollfarben:steingrau.png\nKlar:klar.png\nClear:klar.png\nClair:klar.png\nLachs:lachs.png\nSalmon:lachs.png\nSaumon:lachs.png\nMintgrün:mintgruen.png\nNachtschwarz:nachtschwarz.png\nNightblack:nachtschwarz.png\nNoir Nuit:nachtschwarz.png\nNachtschwarz Dipped:nachtschwarz_dipped.png\nNightblack Dipped:nachtschwarz_dipped.png\nNoir Nuit Dipped:nachtschwarz_dipped.png\nTeal Vollfarben:teal.png\nNaturweiß:naturweiss.png\nNatural White:naturweiss.png\nBlanc Naturel:naturweiss.png\nNaturweiß Dipped:naturweiss_dipped.png\nNatural White Dipped:naturweiss_dipped.png\nBlanc Naturel Dipped:naturweiss_dipped.png\nRosé:rose.png\nRosé Dipped:rose_dipped.png\nSalbei:salbei.png\nSage:salbei.png\nSauge:salbei.png\nSand:sand.png\nSable:sand.png\nSand Dipped:sand_dipped.png\nSable Dipped:sand_dipped.png\nSchneeweiß:schneeweiss.png\nSnow White:schneeweiss.png\nBlanc neige:schneeweiss.png\nSenfgelb:senfgelb.png\nMustard Yellow:senfgelb.png\nMoutarde:senfgelb.png\nSteingrau:steingrau.png\nStonegrey:steingrau.png\nGris-Pierre:steingrau.png\nSteingrau Dipped:steingrau_dipped.png\nStonegrey Dipped:steingrau_dipped.png\nGris-Pierre Dipped:steingrau_dipped.png\nSteingrau Innen:steingrau_dipped.png\nTeal:teal.png\nTeal Dipped:teal_dipped.png\nTeal Innen:teal_innen.png\nTeal Inside:teal_innen.png\nTeal Intérieur:teal_innen.png\nTransparent:transparent.png\nTürkis:tuerkis.png\nTurquoise:tuerkis.png\nTürkis Dipped:tuerkis_dipped.png\nTurquoise Dipped:tuerkis_dipped.png\nRosé Vollfarben:rose.png\nTürkis Vollfarben:tuerkis.png\nTeal Vollfarben:teal.png\n\nKlassik\n\nAltrosa:altrosa.png\nOldrose:altrosa.png\nRose Sombre:altrosa.png\nAltrosa Innen:altrosa_innen.png\nOldrose Inside:altrosa_innen.png\nIntérieur Rose Sombre:altrosa_innen.png\nBlau Innen:blau_innen.png\nBlue Inside:blau_innen.png\nBleu Intérieur:blau_innen.png\nBlau-Weiß-Gestreift:blau_weiss_gestreift.png\nBlue-White-Striped:blau_weiss_gestreift.png\nRayé Bleu & Blanc:blau_weiss_gestreift.png\nFlieder Innen:flieder_innen.png\nLilac Inside:flieder_innen.png\nLilas Intérieur:flieder_innen.png\nApricot Innen:apricot_innen.png\nApricot Inside:apricot_innen.png\nAbricot Intérieur:apricot_innen.png\nGrün Innen:gruen_innen.png\nGreen Inside:gruen_innen.png\nVert Intérieur:gruen_innen.png\nKaramell:karamell.png\nCaramel:karamell.png\nKaramell Innen:karamell_innen.png\nCaramel Inside:karamell_innen.png\nIntérieur Caramel:karamell_innen.png\nKreideblau:kreideblau.png\nChalk Blue:kreideblau.png\nBleu Craie:kreideblau.png\nLanius Beige:lanius_beige.png\nPetrol:petrol.png\nPétrole:petrol.png\nPetrol Innen:petrol_innen.png\nPetrol Inside:petrol_innen.png\nIntérieur Pétrole:petrol_innen.png\nSand:sand.png\nSable:sand.png\nTaubenblau:taubenblau.png\nDove Blue:taubenblau.png\nBleu Pigeon:taubenblau.png\nTaubenblau Innen:taubenblau_innen.png\nDove Blue Inside:taubenblau_innen.png\nIntérieur bleu pigeon:taubenblau_innen.png\nWeiß:weiss.png\nWhite:weiss.png\nBlanc:weiss.png\nWeiß Innen:weiss_innen.png\nWhite Inside:weiss_innen.png\nIntérieur Blanc:weiss_innen.png\nEye Motiv:eye.jpg\nLine Motiv:line.jpg\n\nBlumentöpfe\n\nKalkstein:kalkstein.png\nLimestone:kalkstein.png\nBlanc Minéral:kalkstein.png\nVanille:vanille.png\nVanilla:vanille.png\nWolkenblau:wolkenblau.png\nCloudy Blue:wolkenblau.png\nBleu Nuage:wolkenblau.png\n\nAberta \/ Antonio Rosa\n\nCremeweiß:cremeweiss.png\nCream White:cremeweiss.png\nBlanc Crème:cremeweiss.png\nSchwarz:schwarz.png\nBlack:schwarz.png\nNoir:schwarz.png\nHellgrau:hellgrau.png\nLight Grey:hellgrau.png\nGris Clair:hellgrau.png\nGrün Vollfarben:gruen.jpg\nBlau Vollfarben:blau.jpg\nOcker Vollfarben:Ocker.jpg\nGrün Handbemalt:gruen-handbemalt.jpg\nBlau Handbemalt:blau-handbemalt.jpg\nOcker Handbemalt:ocker-handbemalt.jpg\nAprikose gestreift:aprikose-gestreift.png\nAprikose kariert:aprikose-kariert.png\nBlau gestreift:blau-gestreift.png\nBlau-gestreift:blau-gestreift2.png\nGrün gestreift:gruen-gestreift.png\nGrün kariert:gruen-kariert.png\nRot gestreift:rot-gestreift.png\nRot kariert:rot-kariert.png\n\nPura\n\nBlau:blau.png\n\nKerzenständer\n\nCreme:creme.png\nCream:creme.png\nCrème:creme.png\nGrau:grau.png\nGrey:grau.png\nGris:grau.png\nHellbeige:hellbeige.png\nLight Beige:hellbeige.png\nBeige Clair:hellbeige.png\nHellmint:hellmint.png\nLight Mint:hellmint.png\nMenthe Clair:hellmint.png\nKobaltblau:kobaltblau.png\nCobalt Blue:kobaltblau.png\nBleu Cobalt:kobaltblau.png\nKarminrot:karminrot.png\nCarmine Red:karminrot.png\nRouge Carmin:karminrot.png\nTerrakotta:terrakotta.png\nTerracotta:terrakotta.png\nWolkenweiß:wolkenweiss.png\nCloud White:wolkenweiss.png\nBlanc Nuage:wolkenweiss.png\n\nDecken & Teppiche\n\nAnthrazit:anthrazit.png\nAnthracite:anthrazit.png\nBlau-Marine:blau_marine.png\nBlue-Navy:blau_marine.png\nBleu-Marine:blau_marine.png\nBordeaux Meliert:bordeaux_meliert.png\nBordeaux mottled:bordeaux_meliert.png\nBordeaux moucheté:bordeaux_meliert.png\nCreme-Anthrazit:creme_anthrazit.png\nCream-Anthracite:creme_anthrazit.png\nCrème-Anthracite:creme_anthrazit.png\nCreme-Natur:creme_natur.png\nCream-Nature:creme_natur.png\nCrème-Nature:creme_natur.png\nDouble Face Marone Beige:double_face_marone_beige.png\nDouble Face - Chestnut Beige:double_face_marone_beige.png\nDOUBLE FACE - BEIGE:double_face_marone_beige.png\nFischgrät Marone Beige:fischgraet_marone_beige.png\nHerringbone - Chestnut Beige:fischgraet_marone_beige.png\nFLÉCHÉE -  BEIGE:fischgraet_marone_beige.png\nKaro Wollweiß:karo_wollweiss.png\nGrasgrün Meliert:grasgruen_meliert.png\nGras-Green mottled:grasgruen_meliert.png\nGrass green moucheté:grasgruen_meliert.png\nKobaltblau Meliert:kobaltblau_meliert.png\nCobalt Blue mottled:kobaltblau_meliert.png\nBleu Cobalt moucheté:kobaltblau_meliert.png\nMarineblau Meliert:marineblau_meliert.png\nNavy Blue mottled:marineblau_meliert.png\nBleu Marine moucheté:marineblau_meliert.png\nNatur:natur.png\nNature:natur.png\nRaute Wollweiß:raute_wollweiss.png\nSquare - Wool White:raute_wollweiss.png\nLOSANGE - BLANC LAINE:raute_wollweiss.png\nTürkis-Petrol:tuerkis_petrol.png\nTurquoise-Petrol:tuerkis_petrol.png\nTurquoise-Pétrole:tuerkis_petrol.png\nNaturweiß-Rosé:naturweiss-rose.png\nNaturweiß-Grün:naturweiss-gruen.png\nNaturweiß-Blau:naturweiss-blau.png\nNaturweiß-Gelb:naturweiss-gelb.png",
+    "product_image_aspect_ratio": "natural",
+    "show_vendor": false,
+    "product_title_max_lines": 0,
+    "product_card_text_font": "body",
+    "product_color_display": "swatch",
+    "show_product_rating": false,
+    "show_quick_buy": false,
+    "show_sold_out_badge": false,
+    "show_discount": false,
+    "discount_mode": "percentage",
+    "cart_type": "drawer",
+    "cart_icon": "shopping_bag_sharp",
+    "cart_empty_cart_link": "\/",
+    "cart_show_free_shipping_bar": false,
+    "cart_free_shipping_threshold": "190",
+    "social_facebook": "https:\/\/www.facebook.com\/onomao.interior",
+    "social_pinterest": "https:\/\/www.pinterest.de\/ono_mao\/",
+    "social_instagram": "https:\/\/www.instagram.com\/ono__mao\/",
+    "favicon": "shopify:\/\/shop_images\/favicon2_Kopie.png",
+    "heading_color": "#1c1c1c",
+    "sections": {
+      "main-gift-card": {
+        "type": "main-gift-card",
+        "settings": {
+          "image_logo": "shopify:\/\/shop_images\/Logo-schwarz_0db4441f-53eb-480b-8975-7a88a3cba69e.png",
+          "image": "shopify:\/\/shop_images\/d2076d1b-7553-4541-a000-647d572f4e93.jpg",
+          "show_qr_code": false,
+          "text_fuer": "Für",
+          "text_von": "Von",
+          "text_line_4": "<p>﻿﻿﻿1. Besuche unseren Onlineshop onomao.com<\/p><p>2. ﻿﻿﻿Lege deine Lieblingsprodukte in den Warenkorb.<\/p><p>3. ﻿﻿﻿Im Checkout kannst du deinen Gutscheincode einlösen.<\/p><p>4. ﻿﻿﻿Freu dich auf deine Bestellung!:)<\/p>"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7079518687644006178": {
+        "type": "shopify:\/\/apps\/checkout-blocks\/blocks\/app-embed\/b0024ca5-9de8-4bf0-a92f-cd0783877ae2",
+        "disabled": false,
+        "settings": {
+          "utm_id": true,
+          "utm_source": true,
+          "utm_medium": true,
+          "utm_campaign": true,
+          "utm_term": true,
+          "ref": true
+        }
+      },
+      "10830403595879607806": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-core\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "url_key": "onomao.com",
+          "lang": "auto"
+        }
+      },
+      "15351435345818755577": {
+        "type": "shopify:\/\/apps\/pandectes-gdpr-compliance\/blocks\/banner\/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15316669992541710076": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-snippet\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "star": "#000000",
+          "text_color": "#333333",
+          "snippet_mode": "default",
+          "text": "Reviews",
+          "line_break": false,
+          "listen_for_changes": false,
+          "rating_without_brackets": false,
+          "format_review_count": true,
+          "show_popup": false,
+          "anchor_to_reviews_widget": true,
+          "show_empty_stars": false
+        }
+      }
+    }
+  },
+  "presets": {
+    "Allure": {
+      "section_vertical_spacing": "md",
+      "heading_color": "#1c1c1c",
+      "text_color": "#1c1c1c",
+      "background": "#efefef",
+      "secondary_background": "#ffffff",
+      "success_color": "#307a07",
+      "error_color": "#cb2b2b",
+      "header_background": "#ffffff",
+      "header_text_color": "#1c1c1c",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#1c1c1c",
+      "modal_background": "#ffffff",
+      "modal_text_color": "#1c1c1c",
+      "primary_button_background": "#1c1c1c",
+      "primary_button_text_color": "#ffffff",
+      "product_rating_color": "#1c1c1c",
+      "heading_font": "univers_next_n4",
+      "heading_letter_spacing": 18,
+      "text_font": "univers_next_n4",
+      "text_font_size_desktop": 14,
+      "button_letter_spacing": 18
+    },
+    "Couture": {
+      "section_vertical_spacing": "md",
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "background": "#ffffff",
+      "secondary_background": "#ffffff",
+      "success_color": "#307a07",
+      "error_color": "#cb2b2b",
+      "header_background": "#ffffff",
+      "header_text_color": "#303030",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#303030",
+      "modal_background": "#ffffff",
+      "modal_text_color": "#303030",
+      "primary_button_background": "#5c5c5c",
+      "primary_button_text_color": "#ffffff",
+      "product_rating_color": "#1c1c1c",
+      "heading_font": "futura_n4",
+      "heading_letter_spacing": 18,
+      "text_font": "century_gothic_n4",
+      "text_font_size_desktop": 14,
+      "button_letter_spacing": 18
+    },
+    "Vogue": {
+      "section_vertical_spacing": "xs",
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "background": "#ffffff",
+      "secondary_background": "#ffffff",
+      "success_color": "#307a07",
+      "error_color": "#cb2b2b",
+      "header_background": "#ffffff",
+      "header_text_color": "#303030",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#303030",
+      "modal_background": "#ffffff",
+      "modal_text_color": "#303030",
+      "primary_button_background": "#f5db8b",
+      "primary_button_text_color": "#303030",
+      "product_rating_color": "#1c1c1c",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_letter_spacing": 18,
+      "text_font": "futura_n4",
+      "text_font_size_desktop": 14,
+      "button_letter_spacing": 18
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".cc-banner-logo {margin: auto;}"
+    ]
+  }
+}
