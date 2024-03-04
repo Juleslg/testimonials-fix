@@ -329,19 +329,19 @@
 
 
 <script>
-  document.documentElement.style.setProperty('--header-height', `${Math.round(document.getElementById('shopify-section-{{ section.id }}').clientHeight)}px`);
-
-   
-  // Function to dynamically set the height of the height-observer
   function updateHeightObserver() {
-    const breakpoint = 700; // Define your breakpoint (700px in this example)
+    const mobileBreakpoint = 619; // Define the mobile breakpoint
+    const desktopBreakpoint = 998; // Define the desktop breakpoint
     const heightObserver = document.querySelector('height-observer');
+
     if (heightObserver) {
-      // Set height based on screen width
-      if (window.innerWidth < breakpoint) {
-        heightObserver.style.height = '46px'; // Mobile height
+      // Determine and set height based on screen width
+      if (window.innerWidth <= mobileBreakpoint) {
+        heightObserver.style.height = '46px'; // Height for screens <= 619px
+      } else if (window.innerWidth > mobileBreakpoint && window.innerWidth <= desktopBreakpoint) {
+        heightObserver.style.height = '33px'; // Height for screens between 620px and 998px
       } else {
-        heightObserver.style.height = '39px'; // Desktop height
+        heightObserver.style.height = '39px'; // Height for screens > 998px
       }
     }
   }
@@ -351,7 +351,6 @@
 
   // Add event listener to run the function on window resize
   window.addEventListener('resize', updateHeightObserver);
-
 </script>
 
 {% schema %}
