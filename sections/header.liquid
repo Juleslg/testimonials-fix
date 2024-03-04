@@ -15,18 +15,6 @@
   z-index: 5;
 }
 
-.height-observer {
-  height: 39px;
-  /* Default to mobile height */
-}
-
-@media screen and (min-width: 700px) {
-  /* Adjust the breakpoint as needed */
-  height-observer {
-    height: 46px;
-    /* Desktop height */
-  }
-}
 
 @media screen and (min-width: 700px) {
   #shopify-section-{{ section.id }} {
@@ -75,7 +63,7 @@
 {%- endif -%}
 </style>
 
-<height-observer class="height-observer" variable="header">
+<height-observer variable="header">
   <x-header class="header">
     {%- comment -%}
       --------------------------------------------------------------------------------------------------------------------
