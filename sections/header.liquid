@@ -5,6 +5,18 @@
     --header-is-sticky: {% if section.settings.enable_sticky %}1{% else %}0{% endif %};
 }
 
+:root {
+  --announcement-bar-height: 46px;
+  /* Default mobile height */
+}
+
+@media screen and (min-width: 700px) {
+  :root {
+    --announcement-bar-height: 39px;
+    /* Desktop height */
+  }
+}
+
 #shopify-section-{{ section.id }} {
   --header-grid: "primary-nav logo secondary-nav" / minmax(0, 1fr) auto minmax(0, 1fr);
   --header-padding-block: 1rem;
