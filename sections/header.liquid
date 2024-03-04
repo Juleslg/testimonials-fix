@@ -15,7 +15,7 @@
   z-index: 5;
 }
 
-height-observer {
+.height-observer {
   height: 39px;
   /* Default to mobile height */
 }
@@ -75,7 +75,7 @@ height-observer {
 {%- endif -%}
 </style>
 
-<height-observer variable="header">
+<height-observer class="height-observer" variable="header">
   <x-header class="header">
     {%- comment -%}
       --------------------------------------------------------------------------------------------------------------------
