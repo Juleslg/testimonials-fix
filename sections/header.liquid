@@ -331,6 +331,7 @@
 <script>
   function updateHeightObserver() {
     const mobileBreakpoint = 619; // Define the mobile breakpoint
+    const tabletBreakpoint = 700; // Define the tablet breakpoint
     const desktopBreakpoint = 998; // Define the desktop breakpoint
     const heightObserver = document.querySelector('height-observer');
 
@@ -338,8 +339,10 @@
       // Determine and set height based on screen width
       if (window.innerWidth <= mobileBreakpoint) {
         heightObserver.style.height = '46px'; // Height for screens <= 619px
-      } else if (window.innerWidth > mobileBreakpoint && window.innerWidth <= desktopBreakpoint) {
-        heightObserver.style.height = '33px'; // Height for screens between 620px and 998px
+      } else if (window.innerWidth > mobileBreakpoint && window.innerWidth <= tabletBreakpoint) {
+        heightObserver.style.height = '33px'; // Height for screens between 620px and 700px
+      } else if (window.innerWidth > tabletBreakpoint && window.innerWidth <= desktopBreakpoint) {
+        heightObserver.style.height = '32px'; // Height for screens between 701px and 998px
       } else {
         heightObserver.style.height = '39px'; // Height for screens > 998px
       }
@@ -352,6 +355,7 @@
   // Add event listener to run the function on window resize
   window.addEventListener('resize', updateHeightObserver);
 </script>
+
 
 {% schema %}
   {
