@@ -335,16 +335,22 @@
     const desktopBreakpoint = 998; // Define the desktop breakpoint
     const heightObserver = document.querySelector('height-observer');
 
+    // Use settings values
+    const mobileHeight = "{{ section.settings.mobile_header_height }}";
+    const tabletHeight = "{{ section.settings.tablet_header_height }}";
+    const smallDesktopHeight = "{{ section.settings.small_desktop_header_height }}";
+    const desktopHeight = "{{ section.settings.desktop_header_height }}";
+
     if (heightObserver) {
       // Determine and set height based on screen width
       if (window.innerWidth <= mobileBreakpoint) {
-        heightObserver.style.height = '46px'; // Height for screens <= 619px
+        heightObserver.style.height = mobileHeight; // Use dynamic value
       } else if (window.innerWidth > mobileBreakpoint && window.innerWidth <= tabletBreakpoint) {
-        heightObserver.style.height = '33px'; // Height for screens between 620px and 700px
+        heightObserver.style.height = tabletHeight; // Use dynamic value
       } else if (window.innerWidth > tabletBreakpoint && window.innerWidth <= desktopBreakpoint) {
-        heightObserver.style.height = '32px'; // Height for screens between 701px and 998px
+        heightObserver.style.height = smallDesktopHeight; // Use dynamic value
       } else {
-        heightObserver.style.height = '39px'; // Height for screens > 998px
+        heightObserver.style.height = desktopHeight; // Use dynamic value
       }
     }
   }
@@ -364,24 +370,44 @@
     "tag": "header",
     "settings": [
       {
+        "type": "text",
+        "id": "mobile_header_height",
+        "label": "Mobile Header Height",
+        "default": "46px"
+      },
+      {
+        "type": "text",
+        "id": "tablet_header_height",
+        "label": "Tablet Header Height",
+        "default": "33px"
+      },
+      {
+        "type": "text",
+        "id": "small_desktop_header_height",
+        "label": "Small Desktop Header Height",
+        "default": "32px"
+      },
+      {
+        "type": "text",
+        "id": "desktop_header_height",
+        "label": "Desktop Header Height",
+        "default": "39px"
+      }, {
         "type": "checkbox",
         "id": "enable_sticky",
         "label": "t:sections.header.enable_sticky_header",
         "default": true
-      },
-      {
+      }, {
         "type": "checkbox",
         "id": "show_separation_border",
         "label": "t:sections.header.show_separation_border",
         "default": true
-      },
-      {
+      }, {
         "type": "checkbox",
         "id": "reduce_padding",
         "label": "t:sections.header.reduce_padding",
         "default": false
-      },
-      {
+      }, {
         "type": "checkbox",
         "id": "cart_no",
         "label": "Cart Number",
