@@ -126,7 +126,7 @@
         "mobile_header_height": "46px",
         "tablet_header_height": "33px",
         "small_desktop_header_height": "32px",
-        "desktop_header_height": "45px",
+        "desktop_header_height": "39px",
         "enable_sticky": true,
         "show_separation_border": false,
         "reduce_padding": true,
