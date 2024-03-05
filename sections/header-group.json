@@ -123,6 +123,10 @@
         "5dcb6592-e168-4cdf-8aa6-d656f4a917bc"
       ],
       "settings": {
+        "mobile_header_height": "46px",
+        "tablet_header_height": "33px",
+        "small_desktop_header_height": "32px",
+        "desktop_header_height": "45px",
         "enable_sticky": true,
         "show_separation_border": false,
         "reduce_padding": true,
