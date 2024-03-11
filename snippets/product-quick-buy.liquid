@@ -49,6 +49,15 @@
           , form_id: product_form_id
           , context: 'card' %}
       </div>
+
+      <div class="quick-buy-modal__content">
+
+
+        {%- render 'buy-buttons'
+          , product: product
+          , form_id: product_form_id -%}
+
+      </div>
     </div>
 
     <div class="quick-buy-modal__info-wrapper">
@@ -62,27 +71,6 @@
     </div>
   </div>
 
-  <div class="quick-buy-modal__content">
-    <!-- Form for adding product to cart -->
-    {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
-    <form
-      id="{{ product_form_id }}"
-      action="/cart/add"
-      method="post"
-      enctype="multipart/form-data">
-    <input
-        type="hidden"
-        name="id"
-        value="{{ product.selected_or_first_available_variant.id }}">
-
-      <!-- Variant selectors and other inputs go here -->
-
-      <!-- Include the buy-buttons snippet for the add-to-cart button -->
-      {%- render 'buy-buttons'
-        , product: product
-        , form_id: product_form_id -%}
-    </form>
-  </div>
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
