@@ -49,9 +49,13 @@
           , form_id: product_form_id
           , context: 'card' %}
 
-        <div>hi</div>
-      </div>
 
+      </div>
+      <div>
+        {%- render 'buy-buttons'
+          , product: product
+          , form_id: product_form_id -%}
+      </div>
 
     </div>
 
@@ -66,8 +70,6 @@
     </div>
 
   </div>
-
-  <div>hi</div>
 
 
   <script>
