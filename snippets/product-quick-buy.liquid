@@ -48,16 +48,17 @@
           , hide_unit_price: true
           , form_id: product_form_id
           , context: 'card' %}
+        <div class="quick-buy-modal__content">
+
+
+          {%- render 'buy-buttons'
+            , product: product
+            , form_id: product_form_id -%}
+
+        </div>
       </div>
 
-      <div class="quick-buy-modal__content">
 
-
-        {%- render 'buy-buttons'
-          , product: product
-          , form_id: product_form_id -%}
-
-      </div>
     </div>
 
     <div class="quick-buy-modal__info-wrapper">
