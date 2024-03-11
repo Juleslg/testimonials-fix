@@ -304,10 +304,10 @@
         <cart-dot class="header__cart-dot {% unless cart.empty? %}is-visible{% endunless %} {% unless section.settings.show_icons %}md:hidden{% endunless %}"></cart-dot>
 
         {% if section.settings.cart_no %}
-          {% unless cart.item_count == 0 %}
-            <span class="cartbubble cartNR cartcount">
-              {{ cart.item_count }}</span>
-          {% endunless %}
+          <span class="cartbubble cartNR cartcount">
+            {% unless cart.item_count == 0 %}
+              {{ cart.item_count }}{% endunless %}
+          </span>
         {% endif %}
 
       </a>
@@ -412,7 +412,7 @@
         "id": "cart_no",
         "label": "Cart Number",
         "info": "Show Number of products currently in the Cart (if there is at least one product in the cart) ",
-        "default": false
+        "default": true
       }, {
         "type": "header",
         "content": "t:sections.header.logo_category"
