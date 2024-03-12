@@ -98,7 +98,7 @@
           {%- if show_secondary_image and product.media.size > 1 -%}
             {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
             {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image
-                                                                                                                                        product-card__image--secondary', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
+                                                                                                                                                                                  product-card__image--secondary', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
           {%- endif -%}
         {%- endif -%}
       </a>
@@ -268,7 +268,7 @@
                 class="h-stack wrap gap-1 option-values-desktop"
                 style="align-items: normal;"
                 data-option-position="{{ product_option.position }}">
-                {%- for option_value in product_option.values limit: 15 -%}
+                {%- for option_value in product_option.values limit: 12 -%}
                   {%- if forloop.first or product.selected_or_first_available_variant.matched and option_value == product_option.selected_value -%}
                     {%- assign selected = true -%}
                   {%- else -%}
@@ -282,7 +282,7 @@
                     , size: 'sm' -%}
 
                 {%- endfor -%}
-                {%- assign color_count = product_option.values.size | minus: 15 -%}
+                {%- assign color_count = product_option.values.size | minus: 12 -%}
                 {%- if product_option.values.size > 15 -%}
                   <p class="smallcaps text-subdued" style="display: flex;  align-items: center; color: inherit; margin-bottom: -2px;">
                     <a style="    padding-bottom: 2px;
@@ -307,7 +307,7 @@
                     /* Hide desktop version on mobile */
                   }
                   .option-values-mobile {
-                    display: inherit;
+                    display: flex;
                     /* Show mobile version on mobile */
                   }
                 }
