@@ -98,7 +98,7 @@
           {%- if show_secondary_image and product.media.size > 1 -%}
             {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
             {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image
-                                                                                                                                                                                                product-card__image--secondary', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
+                                                    product-card__image--secondary', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
           {%- endif -%}
         {%- endif -%}
       </a>
@@ -236,10 +236,10 @@
 
             {%- when 'swatch' -%}
               <fieldset
-                class="h-stack wrap gap-1 option-values-mobile"
+                class="h-stack wrap gap-1"
                 style="align-items: normal;"
                 data-option-position="{{ product_option.position }}">
-                {%- for option_value in product_option.values limit: 6 -%}
+                {%- for option_value in product_option.values limit: 15 -%}
                   {%- if forloop.first or product.selected_or_first_available_variant.matched and option_value == product_option.selected_value -%}
                     {%- assign selected = true -%}
                   {%- else -%}
@@ -254,35 +254,6 @@
 
                 {%- endfor -%}
                 {%- assign color_count = product_option.values.size | minus: 15 -%}
-                {%- if product_option.values.size > 6 -%}
-                  <p class="smallcaps text-subdued" style="display: flex;  align-items: center; color: inherit; margin-bottom: -2px;">
-                    <a style="    padding-bottom: 2px;
-                    font-size: 12px;">
-                      +</a>
-                    <a style="font-size: 14px;">...</a>
-                  </p>
-                {%- endif -%}
-              </fieldset>
-
-              <fieldset
-                class="h-stack wrap gap-1 option-values-desktop"
-                style="align-items: normal;"
-                data-option-position="{{ product_option.position }}">
-                {%- for option_value in product_option.values limit: 12 -%}
-                  {%- if forloop.first or product.selected_or_first_available_variant.matched and option_value == product_option.selected_value -%}
-                    {%- assign selected = true -%}
-                  {%- else -%}
-                    {% assign selected = false %}
-                  {%- endif -%}
-
-                  {%- render 'swatch' with 'color'
-                    , value: option_value
-                    , name: name
-                    , selected: selected
-                    , size: 'sm' -%}
-
-                {%- endfor -%}
-                {%- assign color_count = product_option.values.size | minus: 12 -%}
                 {%- if product_option.values.size > 15 -%}
                   <p class="smallcaps text-subdued" style="display: flex;  align-items: center; color: inherit; margin-bottom: -2px;">
                     <a style="    padding-bottom: 2px;
@@ -293,25 +264,6 @@
                 {%- endif -%}
               </fieldset>
 
-              <style>
-                /* Hide the mobile version by default */
-                .option-values-mobile {
-                  display: none;
-                }
-
-                /* CSS Media Query for Mobile Devices */
-                @media (max-width: 768px) {
-                  /* Adjust the breakpoint as needed */
-                  .option-values-desktop {
-                    display: none;
-                    /* Hide desktop version on mobile */
-                  }
-                  .option-values-mobile {
-                    display: flex;
-                    /* Show mobile version on mobile */
-                  }
-                }
-              </style>
 
           {%- endcase -%}
 
