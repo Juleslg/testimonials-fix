@@ -52,6 +52,11 @@
 
       </div>
 
+      <div>
+        {%- render 'buy-buttons'
+          , product: product
+          , form_id: product_form_id -%}
+      </div>
 
     </div>
 
@@ -71,11 +76,6 @@
 
       <a href="{{ product.url }}" class="quick-buy-modal__view-more link sm-max:hidden">{{ 'product.general.view_details' | t }}</a>
 
-      <div>
-        {%- render 'buy-buttons'
-          , product: product
-          , form_id: product_form_id -%}
-      </div>
 
     </div>
 
