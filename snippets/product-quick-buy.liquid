@@ -69,8 +69,7 @@
 
       {% render 'price-list'
         , product: product
-        , variant: product.selected_or_first_available_variant
-        , hide_unit_price: true
+        , variant: product.selected_or_first_available_variant 
         , form_id: product_form_id
         , context: 'card' %}
 
