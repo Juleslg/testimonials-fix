@@ -58,26 +58,26 @@
           , form_id: product_form_id -%}
       </div>
 
+    </div>
 
-      <div class="quick-buy-modal__info-wrapper">
-        {%- assign allow_blocks = '@app,vendor,title,price,payment_terms,separator,variant_picker,product_variations,line_item_property,buy_buttons' | split: ',' -%}
-        {%- render 'product-info'
-          , product: product
-          , allow_blocks: allow_blocks
-          , update_url: false -%}
+    <div class="quick-buy-modal__info-wrapper">
+      {%- assign allow_blocks = '@app,vendor,title,price,payment_terms,separator,variant_picker,product_variations,line_item_property,buy_buttons' | split: ',' -%}
+      {%- render 'product-info'
+        , product: product
+        , allow_blocks: allow_blocks
+        , update_url: false -%}
 
-        {% render 'price-list'
-          , product: product
-          , variant: product.selected_or_first_available_variant
-          , hide_unit_price: true
-          , form_id: product_form_id
-          , context: 'card' %}
+      {% render 'price-list'
+        , product: product
+        , variant: product.selected_or_first_available_variant
+        , hide_unit_price: true
+        , form_id: product_form_id
+        , context: 'card' %}
 
-        <a href="{{ product.url }}" class="quick-buy-modal__view-more link sm-max:hidden">{{ 'product.general.view_details' | t }}</a>
-
-      </div>
+      <a href="{{ product.url }}" class="quick-buy-modal__view-more link sm-max:hidden">{{ 'product.general.view_details' | t }}</a>
 
     </div>
+
 
   </div>
 
