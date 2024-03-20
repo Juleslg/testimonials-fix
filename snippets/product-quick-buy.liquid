@@ -61,7 +61,7 @@
     </div>
 
     <div class="quick-buy-modal__info-wrapper">
-
+      {%- assign allow_blocks = '@app,vendor,title,price,payment_terms,separator,variant_picker,product_variations,line_item_property,buy_buttons' | split: ',' -%}
       {%- render 'product-info'
         , product: product
         , allow_blocks: allow_blocks
@@ -75,12 +75,6 @@
         , context: 'card' %}
 
       <a href="{{ product.url }}" class="quick-buy-modal__view-more link sm-max:hidden">{{ 'product.general.view_details' | t }}</a>
-
-      <div>
-        {%- render 'buy-buttons'
-          , product: product
-          , form_id: product_form_id -%}
-      </div>
 
     </div>
 
