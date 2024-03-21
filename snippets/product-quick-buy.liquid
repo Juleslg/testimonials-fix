@@ -79,7 +79,8 @@
   <div>
     {%- render 'buy-buttons'
       , product: product
-      , form_id: product_form_id -%}
+      , form_id: product_form_id
+      , variant: product.selected_or_first_available_variant -%}
   </div>
 
 </template>
