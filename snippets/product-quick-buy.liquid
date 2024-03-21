@@ -72,14 +72,8 @@
 
 
   </div>
-  <div>
-    <a href="{{ product.title }}" class="product-title h6">{{ product.title }}</a>
-    {%- render 'price-list'
-      , product: product
-      , variant: product.selected_or_first_available_variant
-      , hide_unit_price: true
-      , form_id: product_form_id
-      , context: 'card' %}
+  <div class="quick-buy-modal__gallery-wrapper">
+
     {%- render 'buy-buttons'
       , product: product
       , form_id: product_form_id
