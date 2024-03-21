@@ -67,16 +67,8 @@
 
 
   </div>
-  <div class="quick-buy-modal__gallery-wrapper">
-    {%- render 'product-gallery'
-      , product: product
-      , desktop_layout: 'carousel_dots'
-      , mobile_controls: 'arrows'
-      , enable_media_autoplay: section.settings.enable_media_autoplay
-      , enable_video_looping: section.settings.enable_video_looping
-      , enable_image_zoom: false
-    -%}
-
+  <div>
+    {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
     {%- render 'buy-buttons'
       , product: product
       , form_id: product_form_id -%}
