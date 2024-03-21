@@ -50,6 +50,10 @@
           , context: 'card' %}
 
 
+        {%- render 'buy-buttons'
+          , product: product
+          , form_id: product_form_id -%}
+
       </div>
 
 
@@ -68,7 +72,7 @@
 
   </div>
   <div>
-    {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
+
     {%- render 'buy-buttons'
       , product: product
       , form_id: product_form_id -%}
