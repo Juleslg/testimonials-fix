@@ -60,7 +60,7 @@
       {%- render 'product-info'
         , product: product
         , allow_blocks: allow_blocks
-        , update_url: false -%}
+      -%}
 
       <a href="{{ product.url }}" class="quick-buy-modal__view-more link sm-max:hidden">{{ 'product.general.view_details' | t }}</a>
     </div>
@@ -71,7 +71,8 @@
 
     {%- render 'buy-buttons'
       , product: product
-      , form_id: product_form_id -%}
+      , form_id: product_form_id 
+      , variant: product.selected_or_first_available_variant -%}
   </div>
 
   <style>
