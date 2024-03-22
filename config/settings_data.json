@@ -44,7 +44,7 @@
     "show_sold_out_badge": false,
     "show_discount": false,
     "discount_mode": "percentage",
-    "cart_type": "drawer",
+    "cart_type": "page",
     "cart_icon": "shopping_bag_sharp",
     "cart_empty_cart_link": "\/",
     "cart_show_free_shipping_bar": false,
@@ -118,6 +118,12 @@
           "show_popup": false,
           "anchor_to_reviews_widget": true,
           "show_empty_stars": false
+        }
+      },
+      "17676569757753803255": {
+        "type": "shopify:\/\/apps\/cartix\/blocks\/app-embed\/e1e19d44-60f2-4f05-8156-49ac0f614adf",
+        "disabled": false,
+        "settings": {
         }
       }
     }
