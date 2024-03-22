@@ -60,7 +60,7 @@
       {%- render 'product-info'
         , product: product
         , allow_blocks: allow_blocks
-      -%}
+        , update_url: update_url -%}
 
       <a href="{{ product.url }}" class="quick-buy-modal__view-more link sm-max:hidden">{{ 'product.general.view_details' | t }}</a>
     </div>
