@@ -87,4 +87,35 @@
       margin-top: 1.5rem;
     }
   </style>
+
+  <script>
+      document.addEventListener('click', function(event) {
+      // Check if the clicked element or any of its parents have the 'block-swatch' class
+      let targetElement = event.target;
+      while (targetElement && !targetElement.classList.contains('block-swatch')) {
+    targetElement = targetElement.parentElement;
+      }
+
+      // If a 'block-swatch' element was clicked
+      if (targetElement && targetElement.classList.contains('block-swatch')) {
+    // Remove 'is-selected' from all 'block-swatch' elements
+    document.querySelectorAll('.block-swatch.is-selected').forEach(function(el) {
+      el.classList.remove('is-selected');
+    });
+
+    // Add 'is-disabled' to all 'block-swatch' elements except the clicked one
+    document.querySelectorAll('.block-swatch').forEach(function(el) {
+      if (el !== targetElement) {
+        el.classList.add('is-disabled');
+      }
+    });
+
+    // Add 'is-selected' to the clicked 'block-swatch' element
+    targetElement.classList.add('is-selected');
+    // Remove 'is-disabled' in case it was added previously
+    targetElement.classList.remove('is-disabled');
+      }
+    });
+  </script>
+
 </template>
