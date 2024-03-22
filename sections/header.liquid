@@ -287,6 +287,7 @@
       <a
         href="{{ routes.cart_url }}"
         class="relative"
+        data-cd-cart-btn
         {% if settings.cart_type != 'page' and request.page_type != 'cart' %}
         aria-controls="cart-drawer"
         {% endif %}>
