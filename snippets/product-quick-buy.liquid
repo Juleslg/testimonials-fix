@@ -63,8 +63,6 @@
         , allow_blocks: allow_blocks
         , update_url: update_url -%}
 
-      {%- render 'buy-buttons' form_id: product_form_id
-      -%}
 
       <a href="{{ product.url }}" class="quick-buy-modal__view-more link sm-max:hidden">{{ 'product.general.view_details' | t }}</a>
     </div>
@@ -72,13 +70,6 @@
 
   </div>
   <div class="quick-buy-modal__buy-buttons">
-
-    {% render 'price-list'
-      , product: product
-      , variant: product.selected_or_first_available_variant
-      , hide_unit_price: true
-      , form_id: product_form_id
-      , context: 'card' %}
 
 
     {%- render 'buy-buttons' form_id: product_form_id
