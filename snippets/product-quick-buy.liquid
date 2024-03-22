@@ -63,7 +63,7 @@
         , allow_blocks: allow_blocks
         , update_url: update_url -%}
 
-      {%- render 'buy-buttons'
+      {%- render 'buy-buttons' form_id: product_form_id
       -%}
 
       <a href="{{ product.url }}" class="quick-buy-modal__view-more link sm-max:hidden">{{ 'product.general.view_details' | t }}</a>
@@ -73,7 +73,7 @@
   </div>
   <div class="quick-buy-modal__buy-buttons">
 
-    {%- render 'buy-buttons'
+    {%- render 'buy-buttons' form_id: product_form_id
     -%}
   </div>
 
